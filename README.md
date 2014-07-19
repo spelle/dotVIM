@@ -29,6 +29,8 @@ YouCompleteMe should fail with message :
 It have to be build. Let's see this later
 
 IV. Powerline for the Airline bundle
+------------------------------------
+
 	mkdir .fonts
 	cd .fonts                                                                                   :(
 	ln -s ../.vim/powerline/font/PowerlineSymbols.otf 
@@ -42,6 +44,7 @@ IV. Powerline for the Airline bundle
 	fc-cache -vf ~/.fonts
 
 V. YouCompleteMe Bundle compilation
+-----------------------------------
 
 	sudo apt install build-essential cmake python-dev libclang-dev
 
