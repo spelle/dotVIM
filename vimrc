@@ -32,5 +32,19 @@ let g:vimwiki_list=[{'path':'~/.vim/vimwiki'}]
 "-------------------
 execute 'source'.$HOME.'/.vim/shortkeys.vim'
 
+" Bclose loading
+"-------------------
+execute 'source'.$HOME.'/.vim/Bclose.vim'
+
+" Quit if only window left is NERDTree
+"-------------------
+autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
+
+" Open NERDTree at startup
+"-------------------
+"autocmd vimenter * NERDTree
+autocmd StdinReadPre * let s:std_in=1
+autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
+
 set number
 colors distinguished
