@@ -32,7 +32,7 @@ IV. Powerline for the Airline bundle
 ------------------------------------
 
 	mkdir .fonts
-	cd .fonts                                                                                   :(
+	cd .fonts
 	ln -s ../.vim/powerline/font/PowerlineSymbols.otf 
 	cd ..
 
