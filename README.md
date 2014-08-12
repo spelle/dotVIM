@@ -18,8 +18,7 @@ II . .vimrc
 III. Install vundle bundles
 --------------------------
 
-	vim
-	:BundleInstall
+	vim :BundleInstall
 
 YouCompleteMe should fail with message :
 
@@ -33,12 +32,12 @@ IV. Powerline for the Airline bundle
 
 	mkdir .fonts
 	cd .fonts
-	ln -s ../.vim/powerline/font/PowerlineSymbols.otf 
+	ln -s ~/.vim/powerline/font/PowerlineSymbols.otf 
 	cd ..
 
 	mkdir .fonts.conf.d
 	cd .fonts.conf.d 
-	ln -s ../.vim/powerline/font/10-powerline-symbols.conf 
+	ln -s ~/.vim/powerline/font/10-powerline-symbols.conf 
 	cd ..
 
 	fc-cache -vf ~/.fonts
