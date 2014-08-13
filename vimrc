@@ -11,7 +11,7 @@ Bundle 'bling/vim-airline'
 Bundle 'vimwiki/vimwiki'
 Bundle 'tpope/vim-fugitive'
 Bundle 'scrooloose/nerdtree'
-Bundle 'Valloric/YouCompleteMe'
+"Bundle 'Valloric/YouCompleteMe'
 
 filetype plugin indent on
 
