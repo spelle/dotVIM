@@ -18,7 +18,7 @@ II . .vimrc
 III. Install vundle bundles
 --------------------------
 
-	vim :BundleInstall
+	vim -c :BundleInstall
 
 YouCompleteMe should fail with message :
 
