@@ -45,7 +45,7 @@ IV. Powerline for the Airline bundle
 V. YouCompleteMe Bundle compilation
 -----------------------------------
 
-	sudo apt install build-essential cmake python-dev libclang-dev
+	sudo apt install build-essential cmake python-dev
 
 	cd .vim/bundle/YouCompleteMe
 	./install.sh --clang-completer
