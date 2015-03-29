@@ -1,3 +1,0 @@
-= my Vim wiki =
-
-	[[ Select / Copy / Paste ]]
